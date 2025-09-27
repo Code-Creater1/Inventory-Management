@@ -4,6 +4,7 @@ import storage
 
 app = FastAPI(title="Inventory Management API")
 
+
 @app.get("/")
 def root():
     return {"message": "Inventory API is running"}
